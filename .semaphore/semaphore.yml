@@ -23,3 +23,7 @@ blocks:
         - name: Integration tests
           commands:
             - echo 'running integration tests'
+          
+promotions:
+  - name: Deploy to Heroku
+    pipeline_file: heroku.yml
