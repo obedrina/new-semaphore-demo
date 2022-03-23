@@ -23,7 +23,6 @@ blocks:
         - name: Integration tests
           commands:
             - echo 'running integration tests'
-          
 promotions:
-  - name: Deploy to Heroku
+  - name: Deploy to staging/production
     pipeline_file: heroku.yml
